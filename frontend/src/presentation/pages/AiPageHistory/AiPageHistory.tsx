@@ -5,12 +5,6 @@ import { Icon } from "@/presentation/components/base/Icon/Icon";
 import ReactMarkdown from "react-markdown";
 import remarkGfm from "remark-gfm";
 
-// ==========================================================
-// ASSUNÇÃO: endpoint de exclusão
-// DELETE http://localhost:3000/api/ai-history/<id>
-// Ajuste a URL abaixo se a rota real for diferente.
-// ==========================================================
-
 interface AiHistory {
   id: number;
   userId: string;
