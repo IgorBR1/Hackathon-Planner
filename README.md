@@ -15,7 +15,8 @@ Plataforma de organização escolar para professores — gerencie turmas, aulas,
 ## 1. Clone o repositório
 
 ```bash
-git clone <url-do-repositorio>
+#git clone <url-do-repositorio>
+git clone https://github.com/IgorBR1/Hackathon-Planner.git
 cd Hackathon-Planner
 ```
 
@@ -37,6 +38,8 @@ Edite `backend/.env` se necessário. Por padrão já funciona com o Docker Compo
 | `DATABASE_URL` | `postgres://postgres:postgres@postgres:5432/postsdb` | Conexão com o banco |
 | `JWT_SECRET` | — | Segredo para tokens JWT (altere em produção) |
 | `GEMINI_API_KEY` | — | Chave da API Google Gemini (funcionalidade de IA) |
+
+Caso deseje utilizar as funcionalidades de IA, gere uma chave de API do Google Gemini e adicione-a à variável GEMINI_API_KEY no arquivo .env
 
 ### 2.2 Suba os serviços
 
